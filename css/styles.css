@@ -1,0 +1,170 @@
+#title{
+    background-color: #ff4c68;
+}
+
+.navbar-brand{
+    font-size: 40px;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5em;
+    color: white;
+}
+
+#cont1{
+    padding :5% 15%;
+}
+
+.playstore:hover{
+    background-color: #ff4c68;
+    color: #212529;
+}
+
+.playstore,.apple{
+    margin-top: 4em;
+    margin-left: 1em;
+}
+
+@media (max-width: 500px) {    
+    
+    .cont1img{
+        transform: rotate(0);
+        position: static;
+        
+    }
+
+    #title h1{
+        text-align: center;
+    }
+}
+
+.cont1img{
+    margin-left: 30%;
+    width: 50%;
+    transform: rotate(20deg);
+    position: relative;
+}
+
+li{ margin-left: 2em;}
+
+/*-------------------FEATURES------------------*/
+
+.features{
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    margin-top: -8%;
+    background-color: white;
+    margin-top: 10%;
+}
+
+.f1,.f2,.f3{
+    text-align: center;
+}
+
+h3{
+    margin-top: 1em;
+}
+
+#features p{
+    font-size: 20px;
+    color: gray;
+}
+
+#features i:hover{
+    color:#ff4c68;
+}
+
+/*-----------TESTIMONIALS------------------*/
+
+#testimonials{
+    background-color:#ff4c68 ;
+    text-align: center;
+    padding:3rem 1rem; 
+    color: white; 
+    margin-top: 10%;
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.testimg{
+    width: 15%;
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    padding:1rem 1rem;
+}
+
+
+
+#carouselTest{
+    
+    height:20em;
+}
+
+
+/*------------------PRICING-------------------*/
+
+.pricingdiv{
+  margin-top: 2em;
+  text-align: center;
+  margin-top: 10%;
+ 
+}
+
+#pricing h2,#pricing h1{
+    color:black;
+    margin-bottom: 0.5em;
+    font-size: 3em;
+}
+
+#pricing p{
+    color:grey;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.card-header{
+    background-color:#ff4c68 ;
+}
+
+.card1{
+    margin-left: -5%;
+    line-height: 2em;
+}
+
+#pricing button:hover{
+    color: black;
+    background-color: white;
+}
+
+/*-------------------------CTA----------------------*/
+
+.cta{
+    background-color: #ff4c68;
+    padding:2em 0 2em 0;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10%;
+}
+
+
+/*--------------------FOOTER-------------------------*/
+
+#footer{
+    margin-top: 10%;
+    padding: 2em 0 2em 0;
+    text-align: center;
+}
+
+#footer i{
+    padding:0 1em 1em 1em;
+}
